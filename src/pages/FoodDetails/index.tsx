@@ -158,13 +158,6 @@ const FoodDetails: React.FC = () => {
     // Finish the order and save on the API
 
     const data = {
-      // product_id: food.id,
-      // name: food.name,
-      // description: food.description,
-      // price: cartTotal,
-      // category: food.category,
-      // thumbnail_url: food.thumbnail_url,
-      // ...food.extras,
       ...food,
       product_id: food.id,
       price: cartTotal.replace('R$', '').replace(',', '.'),

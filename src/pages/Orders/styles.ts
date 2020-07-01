@@ -96,10 +96,7 @@ export const FoodPricing = styled.Text`
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
-
   margin-top: 8px;
-
   font-weight: 600;
-
   color: #39b100;
 `;
